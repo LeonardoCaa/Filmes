@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         idRecyclerViewFilmes.setHasFixedSize(true);
 
-        idRecyclerViewFilmes.setAdapter();
+        //idRecyclerViewFilmes.setAdapter(adapter);
 
     }
 }
