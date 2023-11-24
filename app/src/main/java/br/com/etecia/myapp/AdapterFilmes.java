@@ -7,6 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class AdapterFilmes extends RecyclerView.Adapter<AdapterFilmes.ViewHolder> {
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -29,4 +30,4 @@ public class AdapterFilmes extends RecyclerView.Adapter<AdapterFilmes.ViewHolder
             super(itemView);
         }
     }
-};
+}
